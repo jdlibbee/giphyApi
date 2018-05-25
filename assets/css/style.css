@@ -1,0 +1,27 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue; 
+    background: url(../images/background.jpg);
+    background-size: 100%;
+}
+.container {
+    margin-top: 10px; 
+}
+.navbar {
+    background: radial-gradient(crimson 10%, rgb(143, 141, 1410)20%, black 70%);
+    font-family: 'Indie Flower', cursive;
+}
+.anime {
+    margin: 5px;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    background-color: black;
+}
+.card{
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    background-color: black;
+}
+
+
