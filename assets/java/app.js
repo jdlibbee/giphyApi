@@ -22,7 +22,7 @@ function displayGiphy() {
     $('#giphySpot').empty();
     var animes = $(this).attr('data-name');
     console.log(this);
-    var queryURL = `https://api.giphy.com/v1/gifs/search?q=${animes}&rating=pg&api_key=vxNW00aofQmE0aXIBDZmewCRmfncbOPd&limit=10`;
+    var queryURL = `https://api.giphy.com/v1/gifs/search?q=${animes}&rating=pg&api_key=vxNW00aofQmE0aXIBDZmewCRmfncbOPd&limit=10&offset=20`;
     $.ajax({
         url: queryURL,
         method: "GET"
